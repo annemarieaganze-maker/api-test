@@ -3,7 +3,7 @@
 return [
     'host' => getenv('DB_HOST') ?: '127.0.0.1',
     'port' => getenv('DB_PORT') ?: '3306',
-    'database' => getenv('DB_DATABASE') ?: 'api',
+    'database' => getenv('DB_DATABASE') ?: 'cv_flutte_anne',
     'username' => getenv('DB_USERNAME') ?: 'root',
     'password' => getenv('DB_PASSWORD') ?: '',
     'charset' => 'utf8mb4',
